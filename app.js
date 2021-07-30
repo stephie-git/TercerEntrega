@@ -5,7 +5,7 @@ let max =10;
 var numeroIngresado = parseInt(prompt('Ingrese un numero del 1 al 10'));
 
 while(numeroIngresado != ''){
-    if(numeroIngresado > max || numeroIngresado < min || numeroIngresado =='' ){
+    if(numeroIngresado > max || numeroIngresado < min ){
         alert('El valor es incorrecto');
     }
     if(numeroIngresado == numeroAdivinanza){
